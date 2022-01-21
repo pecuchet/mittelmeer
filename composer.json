@@ -1,0 +1,26 @@
+{
+    "name": "dotburo/mittelmeer",
+    "description": "Personal map project",
+    "keywords": ["laravel", "lumen", "vue", "osm", "leaflet"],
+    "author": "dotburo <code@dotburo.org>",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "laravel/lumen-framework": "^8.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

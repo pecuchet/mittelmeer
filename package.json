@@ -1,0 +1,30 @@
+{
+    "name": "@dotburo/mittelmeer",
+    "description": "Personal map project",
+    "author": "dotburo <code@dotburo.org>",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "axios": "^0.25.0",
+        "vue": "^2.6.14",
+        "vue-router": "^3.5.3",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.41",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.49.0",
+        "sass-loader": "^12.4.0",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run dev -- --watch"
+    }
+}
